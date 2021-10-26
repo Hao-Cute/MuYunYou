@@ -1,5 +1,3 @@
 # MuYunYou
 慕云游商城首页组件化开发
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNTgxNTY4NjU0NA==' frameborder=0 'allowfullscreen'></iframe>
-<iframe height=498 width=510 src="https://player.youku.com/embed/XNjcyMDU4Njg0" frameborder=0 allowfullscreen></iframe>
-
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
