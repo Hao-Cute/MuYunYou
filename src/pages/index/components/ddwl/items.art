@@ -1,0 +1,85 @@
+<div class="col1">
+    <ul>
+        <li class="grid big">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="{{one.url}}" alt="" />
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        {{one.title}}
+                    </div>
+                    <div class="type">{{one.type}}</div>
+                    <div class="price">
+                        <span>{{one.price}}</span>
+                        元起
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="{{items[0].url}}" alt="" />
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        {{items[0].title}}
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="col2">
+    <ul>
+        <% for(var i=1; i < items.length-1; i++){ %>
+            <li class="grid">
+                <a href="">
+                    <div class="pic">
+                        <img class="p-img" src="<%= items[i].url %>" alt="" />
+                    </div>
+                    <div class="tip">
+                        <div class="inn">
+                            <%= items[i].title %>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <% } %>
+    </ul>
+</div>
+<div class="col3">
+    <ul>
+        <li class="grid">
+            <a href="">
+                <div class="pic">
+                    <img class="p-img" src="{{items[4].url}}" alt="" />
+                </div>
+                <div class="tip">
+                    <div class="inn">
+                        {{items[4].title}}
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="more grid">
+            <a href="">
+                <div class="more_con">
+                    查看更多<br />
+                    {{more.title}}
+                </div>
+                <div class="arrow">
+                    <b class="iconfont">&#xe602;</b>
+                </div>
+                <div class="tj">
+                    <ul>
+                        {{each more.items}}
+                        <li>{{$value}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

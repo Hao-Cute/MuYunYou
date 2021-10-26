@@ -1,0 +1,11 @@
+<section class="layer xxsw">
+    <div class="center-wrap">
+        <div class="hd">
+            <h3>新鲜甩尾</h3>
+            <div class="slogan">每日不可不看的好货</div>
+        </div>
+        <div class="bd">
+            <% include('../../../../components/loading/loading.art', { inline: false, text:'^_^ 正在拼命为您加载……' }) %>
+        </div>
+    </div>
+</section>

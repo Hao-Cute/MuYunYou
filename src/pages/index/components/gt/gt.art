@@ -1,0 +1,13 @@
+<div class="hd">
+    <h3>跟团/半自助游</h3>
+    <div class="slogan">旅游需要好的选择，踏实省心</div>
+    <div class="tabbar">
+        <ul>
+            <li class="current"><a href="javascript:;">跟团</a></li>
+            <li><a href="javascript:;">半自助游</a></li>
+        </ul>
+    </div>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art', { inline: false, text:'^_^ 正在拼命为您加载……' }) %>
+</div>

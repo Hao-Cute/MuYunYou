@@ -1,0 +1,14 @@
+<ul>
+    {{each $data}}
+    <li class="grid">
+        <a href="" title="{{ $value.title }}">
+            <div class="pic">
+                <img class="p-img" src="{{ $value.url }}" alt="" />
+            </div>
+            <div class="tip">
+                {{ $value.title }}
+            </div>
+        </a>
+    </li>
+    {{/each}}
+</ul>

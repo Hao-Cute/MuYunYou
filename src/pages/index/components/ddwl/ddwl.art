@@ -1,0 +1,19 @@
+<div class="hd">
+    <h3>当地玩乐</h3>
+    <div class="slogan">像当地人一样，体验本土的吃喝玩乐</div>
+    <div class="tabbar">
+        <ul>
+            <li class="current"><a href="javascript:;">国内</a></li>
+            <li><a href="javascript:;">日本</a></li>
+            <li><a href="javascript:;">韩国</a></li>
+            <li><a href="javascript:;">澳大利亚</a></li>
+            <li><a href="javascript:;">新西兰</a></li>
+            <li><a href="javascript:;">美国</a></li>
+            <li><a href="javascript:;">泰国</a></li>
+            <li><a href="javascript:;">斯里兰卡</a></li>
+        </ul>
+    </div>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art', { inline: false, text:'^_^ 正在拼命为您加载……' }) %>
+</div>

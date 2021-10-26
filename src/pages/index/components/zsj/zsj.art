@@ -1,0 +1,13 @@
+<div class="hd">
+    <h3>最世界·深度旅行</h3>
+    <div class="slogan">摆脱千篇一律的旅行，探索属于自己的世界</div>
+    <div class="tabbar">
+        <ul>
+            <li class="current"><a href="javascript:;">城市旅行</a></li>
+            <li><a href="javascript:;">乡村旅行</a></li>
+        </ul>
+    </div>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art', { inline: false, text:'^_^ 正在拼命为您加载……' }) %>
+</div>

@@ -1,0 +1,20 @@
+<div class="hd">
+  <h3>机酒自由行</h3>
+  <div class="slogan">挑选全球机票、酒店、邮轮等旅行产品</div>
+  <div class="tabbar">
+    <ul>
+      <li class="current"><a href="javascript:;">近期好货</a></li>
+      <li><a href="javascript:;">新品汇聚</a></li>
+      <li><a href="javascript:;">定制游</a></li>
+      <li><a href="javascript:;">国内推荐</a></li>
+      <li><a href="javascript:;">优惠机票</a></li>
+      <li><a href="javascript:;">热门海岛</a></li>
+      <li><a href="javascript:;">热门海岛</a></li>
+      <li><a href="javascript:;">热卖签证</a></li>
+    </ul>
+  </div>
+</div>
+<div class="bd">
+  <% include('../../../../components/loading/loading.art', { inline: false,
+  text:'^_^ 正在拼命为您加载……' }) %>
+</div>

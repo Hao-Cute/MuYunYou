@@ -1,0 +1,6 @@
+<section class="layer fav-ad">
+    <div class="center-wrap">
+       <% include('../../../../components/loading/loading.art', { inline: false,
+        text:'^_^ 正在拼命为您加载……' }) %> 
+    </div>
+</section>
